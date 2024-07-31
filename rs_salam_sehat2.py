@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 from streamlit_gsheets import GSheetsConnection
 
+from streamlit.util import convert\_anything\_to\_dftype
+
 #visualisasi
 import matplotlib.pyplot as plt
 import plotly.express as px
