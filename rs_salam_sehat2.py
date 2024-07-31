@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 from streamlit_gsheets import GSheetsConnection
 
-from streamlit.util import convert\_anything\_to\_dftype
-
 #visualisasi
 import matplotlib.pyplot as plt
 import plotly.express as px
@@ -23,7 +21,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-#st.markdown('<p class="big-font">PREVIEW DASHBOARD ANALISIS OMSET DAN SEBARAN PASIEN RS SALAM SEHAT</p>', unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center;'>Preview Dashboard Analisis Omset dan Sebaran Pasien RS Salam Sehat</h1>", unsafe_allow_html=True)
 st.image("ars3_overview1.png")
 
