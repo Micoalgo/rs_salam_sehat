@@ -39,11 +39,11 @@ with st.expander("Lingkup dan Penerapan Data Analis untuk Bisnis Rumah Sakit"):
     with col5az:
         st.subheader("Lingkup Bisnis Rumah Sakit")
         st.image("ba1.png")
-        st.write("Kompleksitas Bisnis RS secara umum tidak dimiliki oleh bentuk bisnis lainnya karena di dalam RS terdapat 3 Bisnis sekaligus yaitu Jasa, Dagang dan Industri")
+        st.write("*Kompleksitas Bisnis RS secara umum tidak dimiliki oleh bentuk bisnis lainnya karena di dalam RS terdapat 3 Bisnis sekaligus yaitu Jasa, Dagang dan Industri*")
     with col6az:
         st.subheader("Penerapan Data Analisis untuk Bisnis Rumah Sakit")
         st.image("ba2.png")
-        st.write("Pasien yang datang harus dapat dipetakan dengan baik terkait Poli/Unit dan Dokter yang dikunjungi serta Pembayaran yang dilakukan menggunakan Penjamin apa, sehingga dari pemetaan/deskriptif analitik tersebut dapat diambil Business Insight dalam pengambilan keputusan oleh Manajemen")
+        st.write("*Pasien yang datang harus dapat dipetakan dengan baik terkait Poli/Unit dan Dokter yang dikunjungi serta Pembayaran yang dilakukan menggunakan Penjamin apa, sehingga dari pemetaan/deskriptif analitik tersebut dapat diambil Business Insight dalam pengambilan keputusan oleh Manajemen*")
 
 
 st.markdown("--------")
