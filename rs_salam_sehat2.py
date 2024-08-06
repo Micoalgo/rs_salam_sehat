@@ -26,9 +26,9 @@ st.image("ars3_overview1.png")
 
 col100, col200 = st.columns(2)
 with col100:
-    st.markdown("[(Klik disini untuk Contoh Dashboard lainnya)](https://abdr.shinyapps.io/rs_salam_sehat/)")
+    st.markdown("[(Klik disini untuk Contoh Dashboard lainnya - Analisis dan Prediksi Machine Learning)](https://abdr.shinyapps.io/rs_salam_sehat/)")
 with col200:
-    st.markdown("[(Klik disini untuk Penjelasan Contoh Dashboard lainnya)](https://youtu.be/WHpYuC6DRhk?feature=shared)")
+    st.markdown("[(Klik disini untuk Penjelasan Contoh Dashboard lainnya - Youtube video)](https://youtu.be/WHpYuC6DRhk?feature=shared)")
 
 st.markdown("--------")
 
@@ -39,6 +39,7 @@ with st.expander("Lingkup dan Penerapan Data Analis untuk Bisnis Rumah Sakit"):
     with col5az:
         st.subheader("Lingkup Bisnis Rumah Sakit")
         st.image("ba1.png")
+        st.write("Kompleksitas Bisnis RS secara umum tidak dimiliki oleh bentuk bisnis lainnya karena di dalam RS terdapat 3 Bisnis sekaligus yaitu Jasa, Dagang dan Industri")
     with col6az:
         st.subheader("Penerapan Data Analisis untuk Bisnis Rumah Sakit")
         st.image("ba2.png")
@@ -336,3 +337,5 @@ with tabs[4]:
 
 st.markdown("--------")
 st.write("*Created by Hospital Financial Analyst - HFA*")
+st.write("*Mico Chandra*")
+st.markdown("[(Klik Linkedin)](https://www.linkedin.com/in/mico-chandra-3a1708202/)")
