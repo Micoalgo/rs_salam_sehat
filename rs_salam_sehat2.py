@@ -32,13 +32,19 @@ with col200:
 
 st.markdown("--------")
 
-# ----------Sidebar
-#with st.sidebar:
-    #st.subheader("Dashboard Analisis Omset dan Jumlah Pasien RS Salam Sehat")
-    #st.markdown ("---")
+st.markdown('<p class="big-font">Kompleksitas Bisnis Rumah Sakit</p>', unsafe_allow_html=True)
 
-##--------- Buat Button
-#if st.sidebar.button("Start Analyzing") :
+with st.expander("Lingkup dan Penerapan Data Analis untuk Bisnis Rumah Sakit"):
+    col5az, col6az = st.columns(2)
+    with col5az:
+        st.subheader("Lingkup Bisnis Rumah Sakit")
+        st.image("ba1.png")
+    with col6az:
+        st.subheader("Penerapan Data Analisis untuk Bisnis Rumah Sakit")
+        st.image("ba2.png")
+
+
+st.markdown("--------")
 
 ## Read Data
 conn = st.connection("gsheet", type=GSheetsConnection)
@@ -48,9 +54,6 @@ df2 = conn.read(
     worksheet = st.secrets.gsheet_omshosp["worksheet"]
     )
 
-#Generate Result
-#else:
-    #st.info("Klik Pojok Kiri Atas untuk Lebih Banyak Preview Dashboard")
 
 df4 = df2.tail(5)
 st.markdown("*Preview Data Transaksi Pasien*")
