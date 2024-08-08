@@ -106,7 +106,7 @@ with st.expander("Overview Dashboard dan Sebaran Omset"):
     with col6:
         st.subheader("Komparasi Omset per Periode")
         st.image("ars3_overview1a.png")
-        st.write("*Grafik ini tidak hanya menunjukkan bagaimana fluktuasi omset yg terjadi mulai dari awal periode sd periode berjalan namun dapat dilihat juga komparasinya antar tahun pada masing-masing periodenya dengan memilih (klik) tahun yang akan dikomparasikan*")
+        st.write("*Grafik ini tidak hanya menunjukkan bagaimana fluktuasi omset yg terjadi mulai dari awal periode sd periode tahun berjalan namun dapat dilihat juga komparasinya antar tahun pada masing-masing periodenya dengan memilih (klik) tahun yang akan dikomparasikan*")
         st.write("*Pada masing-masing info box juga dapat dilihat total omset setiap tahunnya serta rata2 omset per periode/per bulan pada masing-masing tahun*")
         st.write("*Pada infobox note dapat dilihat dari seluruh periode omset, periode manakah yang menghasilkan performa omset terbaik/terbesar ?*")
 
