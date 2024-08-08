@@ -21,8 +21,8 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<h1 style='text-align: center;'>Preview Dashboard Analisis Omset dan Sebaran Pasien RS Salam Sehat</h1>", unsafe_allow_html=True)
-st.image("ars3_overview1.png")
+st.markdown("<h1 style='text-align: center;'>Preview Dashboard Analisis Omset dan Sebaran Pasien</h1>", unsafe_allow_html=True)
+st.image("rs33.jpg")
 
 col100, col200 = st.columns(2)
 with col100:
