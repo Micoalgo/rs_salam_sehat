@@ -22,7 +22,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("<h1 style='text-align: center;'>Preview Dashboard Analisis Omset dan Sebaran Pasien</h1>", unsafe_allow_html=True)
-st.image("rs33.jpg")
+st.image("rs33a.png")
 
 col100, col200 = st.columns(2)
 with col100:
