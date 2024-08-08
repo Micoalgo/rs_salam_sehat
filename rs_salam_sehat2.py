@@ -104,6 +104,7 @@ with st.expander("Overview Dashboard dan Sebaran Omset"):
     with col6:
         st.subheader("Komparasi Omset per Periode")
         st.image("ars3_overview1a.png")
+        st.write("*Grafik ini tidak hanya menunjukkan bagaimana fluktuasi omset yg terjadi mulai dari awal periode sd periode berjalan namun dapat dilihat juga komparasinya antar tahun dengan memilih (klik) tahun yang akan dikomparasikan*")
 
 with st.expander("Overview Jumlah Omset per Penjamin"):
     col7, col8 = st.columns(2)
