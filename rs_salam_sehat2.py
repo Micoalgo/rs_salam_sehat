@@ -101,6 +101,7 @@ with st.expander("Overview Dashboard dan Sebaran Omset"):
         st.subheader("Overview Sebaran Omset dan Disclaimer")
         st.image("ars3_overview1.png")
         st.write("*Dashboard ini memberikan gambaran/deskripsi analitik terkait sebaran omset dan jumlah pasien pada masing2 Poli/Unit dan Dokter serta analisa statistik lainnya sehingga dapat memberikan insight bagi manajemen dalam pengambilan keputusan bisnis yang efektif dan efesien*")
+        st.write("*Discalimer : Rumah Sakit Salam Sehat (RS3) adalah rumah sakit fiktif, dimana data yg diolah didalam rangka Analisa, Evaluasi dan Visualisasinya merupakan Data Dummy/Bukan Data yg sebenarnya dan Bilamana ada kesamaan data ataupun pola/trend data dengan perusahaan real sejenis, maka itu adalah sebuah kebetulan yg tidak mencerminkan kondisi real dari Dokter maupun Rumah Sakit/Perusahaan sejenis tsb*")
     with col6:
         st.subheader("Komparasi Omset per Periode")
         st.image("ars3_overview1a.png")
