@@ -98,8 +98,9 @@ st.markdown('<p class="big-font">Highlight Preview Dashboard Analisis Omset dan 
 with st.expander("Overview Dashboard dan Sebaran Omset"):
     col5, col6 = st.columns(2)
     with col5:
-        st.subheader("Overview Sebaran Omset dan Discalimer")
+        st.subheader("Overview Sebaran Omset dan Disclaimer")
         st.image("ars3_overview1.png")
+        st.write("*Dashboard ini memberikan gambaran/deskripsi analitik terkait sebaran omset dan jumlah pasien pada masing2 Poli/Unit dan Dokter serta analisa statistik lainnya sehingga dapat memberikan insight bagi manajemen dalam pengambilan keputusan bisnis yang efektif dan efesien*")
     with col6:
         st.subheader("Komparasi Omset per Periode")
         st.image("ars3_overview1a.png")
