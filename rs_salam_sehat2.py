@@ -109,20 +109,24 @@ with st.expander("Overview Jumlah Omset per Penjamin"):
     with col7:
         st.subheader("Jumlah Omset per Penjamin")
         st.image("ars3_overview5.png")
-        st.write("*Diagram batang ini menunjukkan rangking/urutan nilai omset berdasarkan masing-masing penjamin pasien setiap tahunnya. Hal tsb memberikan gambaran siapa penjamin sebagai kontributor terbesar omset sehingga dapat menjadi pertimbangan tim marketing dlm mengalokasikan fokus target pasar RS*")
+        st.write("*Diagram batang ini menunjukkan rangking/urutan jumlah omset berdasarkan masing-masing penjamin pasien setiap tahunnya. Hal tsb memberikan gambaran siapa penjamin sebagai kontributor terbesar omset sehingga dapat menjadi pertimbangan tim marketing dlm mengalokasikan fokus target pasar RS*")
     with col8:
         st.subheader("Komparasi Jumlah Omset tiap Penjamin per Periode")
         st.image("ars3_overview5a.png")
-        st.write("*Grafik ini menunjukan komparasi omset masing-masing penjamin pada setiap periode/bulan di setiap tahunnya (klik pilihan tahun)*")
+        st.write("*Grafik ini menunjukan komparasi jumlah omset masing-masing penjamin pada setiap periode/bulan di setiap tahunnya (klik Pilihan Tahun)*")
 
 with st.expander("Overview Jumlah Pasien per Penjamin"):
     col9, col10 = st.columns(2)
     with col9:
         st.subheader("Jumlah Pasien per Penjamin")
         st.image("ars3_overview6.png")
+        st.write("*Diagram batang ini menunjukkan rangking/urutan jumlah pasien berdasarkan masing-masing penjamin pasien setiap tahunnya. Hal tsb memberikan gambaran siapa penjamin sebagai kontributor terbesar jumlah pasien sehingga dapat menjadi pertimbangan tim marketing dlm mengalokasikan fokus target pasar RS*")
+
     with col10:
         st.subheader("Komparasi Jumlah Pasien tiap Penjamin per Periode")
         st.image("ars3_overview6a.png")
+        st.write("*Grafik ini menunjukan komparasi jumlah pasien masing-masing penjamin pada setiap periode/bulan di setiap tahunnya (klik Pilihan Tahun)*")
+
 
 tabs = st.tabs(["POLI/UNIT", "DOKTER", "BPJS KESEHATAN", "STATISTIK","RAJAL (OP) DAN RANAP (IP)"])
 with tabs[0]:
