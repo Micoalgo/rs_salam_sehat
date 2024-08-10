@@ -115,6 +115,7 @@ with st.expander("Overview Jumlah Omset per Penjamin"):
     with col7:
         st.subheader("Jumlah Omset per Penjamin")
         st.image("ars3_overview5.png")
+        st.write("*Diagram batang ini menunjukkan rangking/urutan nilai omset berdasarkan masing-masing penjamin pasien. Hal tsb memberikan gambaran siapa penjamin sebagai kontributor terbesar omset sehingga dapat menjadi pertimbangan tim marketing dlm mengalokasikan fokus target pasar RS*")
     with col8:
         st.subheader("Komparasi Jumlah Omset tiap Penjamin per Periode")
         st.image("ars3_overview5a.png")
