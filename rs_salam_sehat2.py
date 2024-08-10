@@ -24,12 +24,6 @@ st.markdown("""
 st.markdown("<h1 style='text-align: center;'>Preview Dashboard Analisis Omset dan Sebaran Pasien RS Salam Sehat</h1>", unsafe_allow_html=True)
 st.image("rs33b.png")
 
-col100, col200 = st.columns(2)
-with col100:
-    st.markdown("[(Klik disini untuk Contoh Dashboard lainnya - Analisis dan Prediksi Machine Learning)](https://abdr.shinyapps.io/rs_salam_sehat/)")
-with col200:
-    st.markdown("[(Klik disini untuk Penjelasan Contoh Dashboard lainnya - Youtube video)](https://youtu.be/WHpYuC6DRhk?feature=shared)")
-
 st.markdown("--------")
 
 st.markdown('<p class="big-font">Kompleksitas Bisnis Rumah Sakit</p>', unsafe_allow_html=True)
@@ -339,12 +333,16 @@ with tabs[4]:
         with col14axybz:
             st.subheader("Jumlah Pasien Rajal (OP) dan Ranap (IP) di Atas Rata2 nya dari Seluruh Periode")
             st.image("mtrenpasopip4.png")
-
-
-
-
+            
+st.markdown("--------")
+col100, col200 = st.columns(2)
+with col100:
+    st.markdown("[(Klik disini untuk Contoh Dashboard lainnya - Analisis dan Prediksi Machine Learning)](https://abdr.shinyapps.io/rs_salam_sehat/)")
+with col200:
+    st.markdown("[(Klik disini untuk Penjelasan Contoh Dashboard lainnya - Youtube video)](https://youtu.be/WHpYuC6DRhk?feature=shared)")
 
 st.markdown("--------")
 st.write("*Created by Hospital Financial Analyst - HFA*")
 st.write("*Mico Chandra*")
 st.markdown("[(Klik Linkedin)](https://www.linkedin.com/in/mico-chandra-3a1708202/)")
+
