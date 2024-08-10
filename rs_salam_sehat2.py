@@ -119,7 +119,7 @@ with st.expander("Overview Jumlah Omset per Penjamin"):
     with col8:
         st.subheader("Komparasi Jumlah Omset tiap Penjamin per Periode")
         st.image("ars3_overview5a.png")
-        st.write("*Grafik ini menunjukan komparasi omset masing-masing penjamin pada setiap periode/bulan di setiap tahunnya (klik pilihan tahun) *")
+        st.write("*Grafik ini menunjukan komparasi omset masing-masing penjamin pada setiap periode/bulan di setiap tahunnya (klik pilihan tahun)*")
 
 with st.expander("Overview Jumlah Pasien per Penjamin"):
     col9, col10 = st.columns(2)
