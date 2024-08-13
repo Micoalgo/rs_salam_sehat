@@ -160,7 +160,7 @@ with tabs[0]:
         with col13:
             st.subheader("Trend Omset per Poli/Unit")
             st.image("bomset_poli3.png")
-            st.write("Dengan Klik pada Pilihan Klinik/Poli/unit, Grafik ini menunjukkan bagaimana fluktuasi Omset pada Poli/Unit tsb mulai dari awal periode sd periode tahun berjalan, sehingga bilamana ditemukan adanya trend/kondisi nilai omset yg menurun maka menjadi bahan evaluasi untuk manajemen terkait tindakan strategis yang akan dilakukan")
+            st.write("Dengan Klik pada Pilihan Klinik/Poli/unit, Grafik ini menunjukkan bagaimana fluktuasi Omset yang terjadi pada Poli/Unit tsb mulai dari awal periode sd periode tahun berjalan, sehingga bilamana ditemukan adanya trend/kondisi nilai omset yg menurun maka menjadi bahan evaluasi untuk manajemen terkait tindakan strategis yang perlu dilakukan")
         with col14:
             st.subheader("Komparasi Trend Omset Poli/Unit per Periode")
             st.image("bomset_poli3a.png")
