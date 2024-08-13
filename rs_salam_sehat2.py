@@ -46,9 +46,9 @@ st.markdown("--------")
 #conn = st.connection("gsheet", type=GSheetsConnection)
 
 #df2 = conn.read(
-    spreadsheet = st.secrets.gsheet_omshosp["spreadsheet"],
-    worksheet = st.secrets.gsheet_omshosp["worksheet"]
-    )
+    #spreadsheet = st.secrets.gsheet_omshosp["spreadsheet"],
+    #worksheet = st.secrets.gsheet_omshosp["worksheet"]
+   # )
 
 
 #df4 = df2.tail(5)
