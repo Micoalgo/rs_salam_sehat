@@ -139,17 +139,20 @@ with tabs[0]:
         with col11:
             st.subheader("Rangking Omset per Poli/Unit")
             st.image("bomset_poli.png")
-            st.write("Diagram batang ini menunjukkan rangking Omset Poli dalam seluruh periodenya, mulai dari Poli dengan Omset terbesar sampai dengan Poli dengan omset terkecil")
+            st.write("Diagram batang ini menunjukkan rangking Omset Poli dalam seluruh periodenya, mulai dari Poli dengan Omset terbesar sampai dengan Poli dengan Omset terkecil")
         with col12:
             st.subheader("Komparasi Rangking Omset Poli/Unit per Periode")
             st.image("bomset_poli2.png")
-            st.write("Dengan Klik Pilihan Tahun pada sisi kanan atas, Diagram batang ini menunjukkan rangking dan Komparasi Omaset Poli pada masing-masing Tahunnya, mulai dari Poli dengan Omset terbesar sampai dengan Poli dengan omset terkecil")
+            st.write("Dengan Klik Pilihan Tahun pada sisi kanan atas, Diagram batang ini menunjukkan rangking dan Komparasi Omaset Poli pada masing-masing Tahunnya, mulai dari Poli dengan Omset terbesar sampai dengan Poli dengan Omset terkecil")
         with col11a:
             st.subheader("Rangking Jumlah Pasien per Poli/Unit")
             st.image("cpasien_poli.png")
+            st.write("Diagram batang ini menunjukkan rangking Jumlah Pasien Poli dalam seluruh periodenya, mulai dari Poli dengan Jumlah Pasien terbanyak sampai dengan Poli dengan Jumlah Pasien paling sedikit")
+
         with col12a:
             st.subheader("Komparasi Rangking Jumlah Pasien Poli/Unit per Periode")
             st.image("cpasien_poli2.png")
+            st.write("Dengan Klik Pilihan Tahun pada sisi kanan atas, Diagram batang ini menunjukkan rangking dan Komparasi Jumlah Pasien Poli pada masing-masing Tahunnya, mulai dari Poli dengan Jumlah Pasien terbanyak sampai dengan Poli dengan Jumlah Pasien paling sedikit")
 
     with st.expander("Trend Omset dan Jumlah Pasien Poli/Unit"):
         col13, col14, col13a, col14a = st.columns(4)
