@@ -139,6 +139,7 @@ with tabs[0]:
         with col11:
             st.subheader("Rangking Omset per Poli/Unit")
             st.image("bomset_poli.png")
+            st.write("Diagram batang ini menunjukkan rangking Poli dalam seluruh periodenya, mulai dari yang terbesar sampai dengan yg terkecil")
         with col12:
             st.subheader("Komparasi Rangking Omset Poli/Unit per Periode")
             st.image("bomset_poli2.png")
