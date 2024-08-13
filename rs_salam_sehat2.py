@@ -27,8 +27,8 @@ st.image("rs33b.png")
 st.markdown("--------")
 
 st.markdown('<p class="big-font">Kompleksitas Bisnis Rumah Sakit</p>', unsafe_allow_html=True)
-st.subheader("Apakah Owner dan Direktur RS Bingung dan Kesulitan melihat Progres Bisnis RS ?")
-st.subheader("Apa yang harus dilakukan ? Mulai dari mana ?")
+st.subheader("Apakah Owner dan Direktur RS Bingung dan Kesulitan melihat Progres Bisnis RS ???")
+st.subheader("Apa yang harus dilakukan ??? Mulai dari mana ???")
 st.subheader(".....Sementara Biaya Rutin Operasional, Angsuran Alkes dan Biaya Lainnya harus terus keluar dan menggerus Cash flow RS")
 
 
