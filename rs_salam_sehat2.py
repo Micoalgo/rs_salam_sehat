@@ -55,15 +55,15 @@ st.markdown("--------")
 #st.markdown("*Preview Data Transaksi Pasien*")
 #st.dataframe(df4)
 #st.markdown(
-                """
-                <style>
-                [data-testid="stElementToolbar"] {
-                    display: none;
-                }
-                </style>
-                """,
-                unsafe_allow_html=True
-            )
+                #"""
+                #<style>
+                #[data-testid="stElementToolbar"] {
+                    #display: none;
+                #}
+                #</style>
+                #""",
+                #unsafe_allow_html=True
+           # )
 
 
 
