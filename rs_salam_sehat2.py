@@ -43,18 +43,18 @@ with st.expander("Lingkup dan Penerapan Data Analis untuk Bisnis Rumah Sakit"):
 st.markdown("--------")
 
 ## Read Data
-conn = st.connection("gsheet", type=GSheetsConnection)
+#conn = st.connection("gsheet", type=GSheetsConnection)
 
-df2 = conn.read(
+#df2 = conn.read(
     spreadsheet = st.secrets.gsheet_omshosp["spreadsheet"],
     worksheet = st.secrets.gsheet_omshosp["worksheet"]
     )
 
 
-df4 = df2.tail(5)
-st.markdown("*Preview Data Transaksi Pasien*")
-st.dataframe(df4)
-st.markdown(
+#df4 = df2.tail(5)
+#st.markdown("*Preview Data Transaksi Pasien*")
+#st.dataframe(df4)
+#st.markdown(
                 """
                 <style>
                 [data-testid="stElementToolbar"] {
@@ -68,25 +68,25 @@ st.markdown(
 
 
 # Memisahkan layar menjadi 2 kolom
-col1, col2 = st.columns(2)
+#col1, col2 = st.columns(2)
 
-fig2 = px.bar(df2['Penanggung'].value_counts())
+#fig2 = px.bar(df2['Penanggung'].value_counts())
 
-fig3 = px.bar(df2['Unit'].value_counts())
+#fig3 = px.bar(df2['Unit'].value_counts())
 
 
 # Menampilkan teks di kolom pertama
-with col1:
-    st.markdown("*Jumlah Pasien per Poli/Unit*")
-    st.write(fig3)
+#with col1:
+    #st.markdown("*Jumlah Pasien per Poli/Unit*")
+    #st.write(fig3)
 
 # Menampilkan teks di kolom kedua
-with col2:
-    st.markdown("*Jumlah Pasien per Penjamin*")
-    st.write(fig2)
+#with col2:
+    #st.markdown("*Jumlah Pasien per Penjamin*")
+    #st.write(fig2)
 
 
-st.markdown("--------")
+#st.markdown("--------")
 st.markdown('<p class="big-font">Highlight Preview Dashboard Analisis Omset dan Sebaran Pasien RS Salam Sehat</p>', unsafe_allow_html=True)
 
 with st.expander("Overview Dashboard dan Sebaran Omset"):
