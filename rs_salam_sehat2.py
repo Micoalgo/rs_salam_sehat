@@ -27,7 +27,7 @@ st.image("rs33b.png")
 st.markdown("--------")
 
 st.markdown('<p class="big-font">Kompleksitas Bisnis Rumah Sakit</p>', unsafe_allow_html=True)
-st.subheader("1. Owner dan Direktur RS kesulitan melihat progres bisnis RS, Apakah pelayanan yang diberikan telah mencapai target Omset yang telah ditetapkan ?")
+st.subheader("1. Owner dan Direktur RS kesulitan melihat progres bisnis RS, Apakah pelayanan maksimal yang telah diberikan sejalan dengan usaha pencapaian target Omset yang telah ditetapkan ?")
 
 with st.expander("Lingkup dan Penerapan Data Analis untuk Bisnis Rumah Sakit"):
     col5az, col6az = st.columns(2)
