@@ -30,8 +30,8 @@ st.markdown('<p class="big-font">Kompleksitas Bisnis Rumah Sakit</p>', unsafe_al
 st.subheader(''':red[*Apakah Owner dan Direktur RS Bingung dan Kesulitan melihat Progres Bisnis RS ??*]''')
 st.subheader(''':red[*Apa yang harus dilakukan ?? Mulai dari mana ??*]''')
 st.subheader(''':red[*...Sementara Biaya Rutin Operasional, Angsuran Alkes dan Biaya Lainnya harus tetap keluar dan menggerus Cash flow RS*]''')
-st.subheader(''':red[*Adakah Management Tool/Dashboard Analisis yang memudahkan Owner dan Direktur RS utk melihat (Helicopter View) Progres Bisnis RS ??*]''')
-st.subheader(''':green[**----->> ADA <<-----**]''')
+st.subheader(''':green[*Adakah Management Tool/Dashboard Analisis yang memudahkan Owner dan Direktur RS utk melihat (Helicopter View) Progres Bisnis RS ??*]''')
+#st.subheader(''':green[**----->> ADA <<-----**]''')
 
 with st.expander("Lingkup dan Penerapan Data Analis untuk Bisnis Rumah Sakit"):
     col5az, col6az = st.columns(2)
