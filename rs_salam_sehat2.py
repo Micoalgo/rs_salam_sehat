@@ -169,7 +169,7 @@ with tabs[0]:
         with col13a:
             st.subheader("Trend Jumlah Pasien per Poli/Unit")
             st.image("cpasien_poli3.png")
-             st.write("Dengan Klik pada Pilihan Klinik/Poli/unit, Grafik ini menunjukkan bagaimana fluktuasi Jumlah Pasien yang terjadi pada Poli/Unit tsb mulai dari awal periode sd periode tahun berjalan, sehingga bilamana ditemukan adanya trend/kondisi Jumlah Pasien yg menurun maka menjadi bahan evaluasi manajemen terkait tindakan strategis yang perlu dilakukan")
+            st.write("Dengan Klik pada Pilihan Klinik/Poli/unit, Grafik ini menunjukkan bagaimana fluktuasi Jumlah Pasien yang terjadi pada Poli/Unit tsb mulai dari awal periode sd periode tahun berjalan, sehingga bilamana ditemukan adanya trend/kondisi Jumlah Pasien yg menurun maka menjadi bahan evaluasi manajemen terkait tindakan strategis yang perlu dilakukan")
 
         with col14a:
             st.subheader("Komparasi Trend Jumlah Pasien Poli/Unit per Periode")
