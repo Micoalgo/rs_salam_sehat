@@ -264,15 +264,19 @@ with tabs[1]:
         with col13cx:
             st.subheader("Komparasi Jumlah Omset Tahunan per Dokter per Penjamin")
             st.image("eomset_dokter4.png")
+            st.write("Dengan Klik pada Pilihan Dokter dan Tahun, Diagram batang ini menunjukkan rangking Omset per Dokter berdasarkan Penjamin/Penanggung Pasien disetiap tahunnya")
         with col14dx:
-            st.subheader("Komparasi Jumlah Omset Poli/Unit per Dokter per Periode")
+            st.subheader("Komparasi Jumlah Omset Dokter per Penjamin per Periode")
             st.image("eomset_dokter4a.png")
+            st.write("Dengan Klik pada Pilihan Dokter dan Tahun, Grafik ini menunjukkan komparasi Omset per Dokter berdasarkan Penjamin/Penanggung Pasien disetiap periode/bulannya")
         with col13ex:
             st.subheader("Komparasi Jumlah Pasien Tahunan per Dokter per Penjamin")
             st.image("fpasien_dokter4.png")
+            st.write("Dengan Klik pada Pilihan Dokter dan Tahun, Diagram batang ini menunjukkan rangking Jumlah Pasien per Dokter berdasarkan Penjamin/Penanggung Pasien disetiap tahunnya")
         with col14fx:
             st.subheader("Komparasi Jumlah Pasien Dokter per Penjamin per Periode")
             st.image("fpasien_dokter4a.png")
+            st.write("Dengan Klik pada Pilihan Dokter dan Tahun, Grafik ini menunjukkan komparasi Jumlah Pasien per Dokter berdasarkan Penjamin/Penanggung Pasien disetiap periode/bulannya")
 
     with st.expander("Omset dan Jumlah Pasien Dokter di Atas Rata2 nya dari Seluruh Periode"):
         col15x,col16x = st.columns(2)
