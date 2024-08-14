@@ -207,7 +207,9 @@ with tabs[0]:
         with col16:
             st.subheader("Jumlah Pasien Poli/Unit di Atas Rata2 nya dari Seluruh Periode")
             st.image("cpasien_poli4b.png")
-
+            st.write("Dengan Klik pada Pilihan Klinik/Poli/Unit, Diagram batang ini menunjukkan periode/bulan dan tahun mana saja yang menghasilkan Jumlah Pasien diatas rata-rata seluruh periode, sehingga dapat diketahui dan dievaluasi periode/bulan dan tahun mana saja yang diatas/dibawah rata-rata ataupun periode mana yang menghasilkan Jumlah Pasien terbanyak terhadap seluruh periodenya")
+            st.write("Slider pada Diagram ini defaultnya menunjukkan pada nilai rata-ratanya, namun bisa juga digeser ke arah nilai tertentu yg diinginkan utk melihat periode/bulan dan tahun Jumlah Pasien mana yang ingin dievaluasi")
+            
     with st.expander("Omset Poli/Unit Pareto"):
         st.subheader("Poli/Unit Pareto (Penopang 80% Omset RS)")
         st.image("dpareto_poli5a.png")
