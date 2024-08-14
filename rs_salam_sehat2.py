@@ -244,16 +244,20 @@ with tabs[1]:
         with col13x:
             st.subheader("Trend Omset per Dokter")
             st.image("eomset_dokter3.png")
+            st.write("Dengan Klik pada Pilihan Dokter, Grafik ini menunjukkan bagaimana fluktuasi Omset yang terjadi pada Dokter tsb mulai dari awal periode sd periode tahun berjalan, sehingga bilamana ditemukan adanya trend/kondisi nilai omset yg menurun maka menjadi bahan evaluasi manajemen terkait tindakan strategis yang perlu dilakukan")
         with col14x:
             st.subheader("Komparasi Trend Omset Dokter per Periode")
             st.image("eomset_dokter3a.png")
+            st.write("Dengan Klik pada Pilihan Dokter, Grafik ini menunjukkan bagaimana fluktuasi Omset dan komparasinya pada setiap periode di masing-masing tahunnya yang terjadi pada Dokter tsb mulai dari awal periode sd periode tahun berjalan, sehingga bilamana ditemukan adanya nilai omset yg lebih kecil dari periode sebelumnya maka menjadi bahan evaluasi manajemen terkait tindakan strategis yang perlu dilakukan")
 
         with col13ax:
             st.subheader("Trend Jumlah Pasien per Dokter")
             st.image("fpasien_dokter3.png")
+            st.write("Dengan Klik pada Pilihan Dokter, Grafik ini menunjukkan bagaimana fluktuasi Jumlah Pasien yang terjadi pada Dokter tsb mulai dari awal periode sd periode tahun berjalan, sehingga bilamana ditemukan adanya trend/kondisi Jumlah Pasien yg menurun maka menjadi bahan evaluasi manajemen terkait tindakan strategis yang perlu dilakukan")
         with col14ax:
             st.subheader("Komparasi Trend Jumlah Pasien Dokter per Periode")
             st.image("fpasien_dokter3a.png")
+            st.write("Dengan Klik pada Pilihan Dokter, Grafik ini menunjukkan bagaimana fluktuasi Jumlah Pasien dan komparasinya pada setiap periode di masing-masing tahunnya yang terjadi pada Dokter tsb mulai dari awal periode sd periode tahun berjalan, sehingga bilamana ditemukan adanya Jumlah Pasien yg lebih kecil dari periode sebelumnya maka menjadi bahan evaluasi manajemen terkait tindakan strategis yang perlu dilakukan")
 
     with st.expander("Omset dan Jumlah Pasien Dokter per Penjamin"):
         col13cx, col14dx, col13ex, col14fx = st.columns(4)
