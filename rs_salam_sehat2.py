@@ -204,13 +204,13 @@ with tabs[0]:
         with col15:
             st.subheader("Omset Poli/Unit di Atas Rata2 nya dari Seluruh Periode")
             st.image("bomset_poli5.png")
-            st.write("Dengan Klik pada Pilihan Klinik/Poli/Unit, Diagram batang ini menunjukkan periode/bulan dan tahun mana saja yang menghasilkan nilai Omset diatas rata-rata seluruh periode, sehingga dapat diketahui dan dievaluasi periode/bulan dan tahun mana saja yang diatas/dibawah rata-rata ataupun periode mana yang menghasilkan omset terbesar terhadap seluruh periodenya")
-            st.write("Slider pada Diagram ini defaultnya menunjukkan pada nilai rata-ratanya, namun bisa juga digeser ke arah nilai tertentu yg diinginkan utk melihat periode/bulan dan tahun omset mana yang ingin dievaluasi")
+            st.write("Dengan Klik pada Pilihan Klinik/Poli/Unit, Diagram batang ini menunjukkan periode/bulan dan tahun mana saja yang menghasilkan nilai Omset diatas rata-rata seluruh periode, sehingga dapat diketahui dan dievaluasi/dielaborasi periode/bulan dan tahun mana saja yang diatas/dibawah rata-rata ataupun periode mana yang menghasilkan omset terbesar terhadap seluruh periodenya")
+            st.write("Slider pada Diagram ini defaultnya menunjukkan pada nilai rata-ratanya, namun bisa juga digeser ke arah nilai tertentu yg diinginkan utk melihat periode/bulan dan tahun omset mana yang ingin dievaluasi/dielaborasi")
         with col16:
             st.subheader("Jumlah Pasien Poli/Unit di Atas Rata2 nya dari Seluruh Periode")
             st.image("cpasien_poli4b.png")
-            st.write("Dengan Klik pada Pilihan Klinik/Poli/Unit, Diagram batang ini menunjukkan periode/bulan dan tahun mana saja yang menghasilkan Jumlah Pasien diatas rata-rata seluruh periode, sehingga dapat diketahui dan dievaluasi periode/bulan dan tahun mana saja yang diatas/dibawah rata-rata ataupun periode mana yang menghasilkan Jumlah Pasien terbanyak terhadap seluruh periodenya")
-            st.write("Slider pada Diagram ini defaultnya menunjukkan pada nilai rata-ratanya, namun bisa juga digeser ke arah nilai tertentu yg diinginkan utk melihat periode/bulan dan tahun Jumlah Pasien mana yang ingin dievaluasi")
+            st.write("Dengan Klik pada Pilihan Klinik/Poli/Unit, Diagram batang ini menunjukkan periode/bulan dan tahun mana saja yang menghasilkan Jumlah Pasien diatas rata-rata seluruh periode, sehingga dapat diketahui dan dievaluasi/dielaborasi periode/bulan dan tahun mana saja yang diatas/dibawah rata-rata ataupun periode mana yang menghasilkan Jumlah Pasien terbanyak terhadap seluruh periodenya")
+            st.write("Slider pada Diagram ini defaultnya menunjukkan pada nilai rata-ratanya, namun bisa juga digeser ke arah nilai tertentu yg diinginkan utk melihat periode/bulan dan tahun Jumlah Pasien mana yang ingin dievaluasi/dielaborasi")
             
     with st.expander("Omset Poli/Unit Pareto"):
         st.subheader("Poli/Unit Pareto (Penopang 80% Omset RS)")
@@ -283,6 +283,9 @@ with tabs[1]:
         with col15x:
             st.subheader("Omset Dokter di Atas Rata2 nya dari Seluruh Periode")
             st.image("eomset_dokter5.png")
+            st.write("Dengan Klik pada Pilihan Dokter, Diagram batang ini menunjukkan periode/bulan dan tahun mana saja yang menghasilkan nilai Omset diatas rata-rata seluruh periode, sehingga dapat diketahui dan dievaluasi/dielaborasi periode/bulan dan tahun mana saja yang diatas/dibawah rata-rata ataupun periode mana yang menghasilkan omset terbesar terhadap seluruh periodenya")
+            st.write("Slider pada Diagram ini defaultnya menunjukkan pada nilai rata-ratanya, namun bisa juga digeser ke arah nilai tertentu yg diinginkan utk melihat periode/bulan dan tahun omset mana yang ingin dievaluasi/dielaborasi")
+            
         with col16x:
             st.subheader("Jumlah Pasien Dokter di Atas Rata2 nya dari Seluruh Periode")
             st.image("fpasien_dokter5.png")
