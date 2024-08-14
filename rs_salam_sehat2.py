@@ -191,9 +191,11 @@ with tabs[0]:
         with col13e:
             st.subheader("Komparasi Jumlah Pasien Tahunan per Poli/Unit per Penjamin")
             st.image("cpasien_poli4.png")
+            st.write("Dengan Klik pada Pilihan Tahun, Diagram batang ini menunjukkan rangking Jumlah Pasien berdasarkan Penjamin/Penanggung Pasien")
         with col14f:
             st.subheader("Komparasi Jumlah Pasien Poli/Unit per Penjamin per Periode")
             st.image("cpasien_poli4a.png")
+            st.write("Dengan Klik pada Pilihan Tahun, Grafik ini menunjukkan komparasi Jumlah Pasien berdasarkan Penjamin/Penanggung Pasien disetiap periode/bulannya")
 
     with st.expander("Omset dan Jumlah Pasien Poli/Unit di Atas Rata2 nya dari Seluruh Periode"):
         col15,col16 = st.columns(2)
