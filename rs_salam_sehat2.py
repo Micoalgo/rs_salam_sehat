@@ -296,6 +296,7 @@ with tabs[1]:
         st.subheader("Dokter Pareto (Penopang 80% Omset RS)")
         st.image("fpareto_pasiendokter.png")
         st.write("Dengan Klik pada Pilihan Tahun, Diagram batang ini menunjukkan Dokter mana saja yang merupakan kontributor terhadap 80% Omset RS (Dokter Pareto), sehingga dengan diagram ini dapat diketahui Dokter mana yang seharusnya menjadi prioritas manajemen didalam pelayanannya baik terhadap dokter maupun pasiennya, dan diharapkan dengan menjaga Zero Complaint dari Dokter maupun Pasien di Dokter Pareto ini, performa Omset dari Dokter Pareto tersebut tetap terjaga bahkan bisa ditingkatkan lagi")
+        st.write("Slider pada Diagram ini defaultnya pada angka 80% (Pareto), namun bisa digeser ke arah kanan/lebih besar dari 80% utk mengetahui Dokter mana yg merupakan kontributor berikutnya, didalam rangka menjadi prioritas manajemen berikutnya didalam optimalisasi pencapaian omset RS")
 
 with tabs[2]:
     with st.expander("Trend Omset dan Jumlah Pasien BPJS kesehatan"):
