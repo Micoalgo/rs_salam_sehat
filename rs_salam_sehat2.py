@@ -289,6 +289,8 @@ with tabs[1]:
         with col16x:
             st.subheader("Jumlah Pasien Dokter di Atas Rata2 nya dari Seluruh Periode")
             st.image("fpasien_dokter5.png")
+            st.write("Dengan Klik pada Pilihan Dokter, Diagram batang ini menunjukkan periode/bulan dan tahun mana saja yang menghasilkan Jumlah Pasien diatas rata-rata seluruh periode, sehingga dapat diketahui dan dievaluasi/dielaborasi periode/bulan dan tahun mana saja yang diatas/dibawah rata-rata ataupun periode mana yang menghasilkan Jumlah Pasien terbanyak terhadap seluruh periodenya")
+            st.write("Slider pada Diagram ini defaultnya menunjukkan pada nilai rata-ratanya, namun bisa juga digeser ke arah nilai tertentu yg diinginkan utk melihat periode/bulan dan tahun Jumlah Pasien mana yang ingin dievaluasi/dielaborasi")
 
     with st.expander("Omset Dokter Pareto"):
         st.subheader("Dokter Pareto (Penopang 80% Omset RS)")
