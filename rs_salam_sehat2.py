@@ -26,8 +26,9 @@ st.image("rs33b.png")
 
 st.markdown("--------")
 
-st.image("dokter2.jpg")
+
 st.markdown('<p class="big-font">Kompleksitas Bisnis Rumah Sakit</p>', unsafe_allow_html=True)
+st.image("dokter2.jpg")
 st.subheader(''':red[*Apakah Owner dan Direktur RS Bingung dan Kesulitan melihat Progres Bisnis RS ??*]''')
 st.subheader(''':red[*Apakah Pelayanan Maksimal yang telah diberikan kepada Pasien dan Dokter telah sejalan dengan usaha Pencapaian Target Omset RS ?? atau sebaliknya... sudah maksimal tapi RS malah Rugi dan kondisi Cash Flow pun tidak sehat??*]''')
 st.subheader(''':red[*Apa yang harus dilakukan ?? Mulai dari mana ??*]''')
