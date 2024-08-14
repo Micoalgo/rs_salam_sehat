@@ -185,7 +185,7 @@ with tabs[0]:
         with col13c:
             st.subheader("Komparasi Jumlah Omset Tahunan per Poli/Unit per Penjamin")
             st.image("bomset_poli4.png")
-            st.write("Dengan Klik pada Pilihan Klinik/Poli/unit dan Tahun, Diagram batang ini menunjukkan rangking Omset per Klinik/Poli/Unit berdasarkan Penjamin/Penanggung Pasien")
+            st.write("Dengan Klik pada Pilihan Klinik/Poli/unit dan Tahun, Diagram batang ini menunjukkan rangking Omset per Klinik/Poli/Unit berdasarkan Penjamin/Penanggung Pasien disetiap tahunnya")
         with col14d:
             st.subheader("Komparasi Jumlah Omset Poli/Unit per Penjamin per Periode")
             st.image("bomset_poli4a.png")
@@ -193,7 +193,7 @@ with tabs[0]:
         with col13e:
             st.subheader("Komparasi Jumlah Pasien Tahunan per Poli/Unit per Penjamin")
             st.image("cpasien_poli4.png")
-            st.write("Dengan Klik pada Pilihan Klinik/Poli/unit dan Tahun, Diagram batang ini menunjukkan rangking Jumlah Pasien per Klinik/Poli/Unit berdasarkan Penjamin/Penanggung Pasien")
+            st.write("Dengan Klik pada Pilihan Klinik/Poli/unit dan Tahun, Diagram batang ini menunjukkan rangking Jumlah Pasien per Klinik/Poli/Unit berdasarkan Penjamin/Penanggung Pasien disetiap tahunnya")
         with col14f:
             st.subheader("Komparasi Jumlah Pasien Poli/Unit per Penjamin per Periode")
             st.image("cpasien_poli4a.png")
