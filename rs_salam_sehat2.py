@@ -213,6 +213,8 @@ with tabs[0]:
     with st.expander("Omset Poli/Unit Pareto"):
         st.subheader("Poli/Unit Pareto (Penopang 80% Omset RS)")
         st.image("dpareto_poli5a.png")
+        st.write("Dengan Klik pada Pilihan Tahun, Diagram batang ini menunjukkan Klinik/Poli/Unit mana saja yang merupakan kontributor terhadap 80% Omset RS (Klinik/Poli/Unit Pareto), sehingga dengan diagram ini diketahui Klinik/Poli/unit mana yang seharusnya menjadi prioritas manajemen didalam pelayanannya baik terhadap dokter maupun pasiennya, dan diharapkan dengan menjaga Zero Complaint dari Dokter maupun Pasien di Klinik/Poli/Unit Pareto ini, performa Omset dari Klinik/Poli/Unit Pareto tersebut tetap terjaga bahkan bisa ditingkatkan lagi")
+        st.write("Slider pada Diagram ini defaultnya pada angka 80% (Pareto), namun bisa digeser ke arah kanan/lebih besar dari 80% utk mengetahui Klinik/Poli/Unit mana yg merupakan kontributor berikutnya, didalam rangka menjadi prioritas manajemen berikutnya didalam optimalisasi pencapaian omset RS")
 
 
 with tabs[1]:
