@@ -147,7 +147,7 @@ with tabs[0]:
         with col12:
             st.subheader("Komparasi Rangking Omset Poli/Unit per Periode")
             st.image("bomset_poli2.png")
-            st.write("Dengan Klik Pilihan Tahun pada sisi kanan atas, Diagram batang ini menunjukkan rangking dan Komparasi Omaset Poli pada masing-masing Tahunnya, mulai dari Poli dengan Omset terbesar sampai dengan Poli dengan Omset terkecil")
+            st.write("Dengan Klik Pilihan Tahun pada sisi kanan atas, Diagram batang ini menunjukkan rangking dan Komparasi Omset Poli pada masing-masing Tahunnya, mulai dari Poli dengan Omset terbesar sampai dengan Poli dengan Omset terkecil")
         with col11a:
             st.subheader("Rangking Jumlah Pasien per Poli/Unit")
             st.image("cpasien_poli.png")
@@ -225,15 +225,19 @@ with tabs[1]:
         with col11x:
             st.subheader("Rangking Omset per Dokter")
             st.image("eomset_dokter.png")
+            st.write("Diagram batang ini menunjukkan rangking Omset Dokter dalam seluruh periodenya, mulai dari Dokter dengan Omset terbesar sampai dengan Dokter dengan Omset terkecil")
         with col12x:
             st.subheader("Komparasi Rangking Omset Dokter per Periode")
             st.image("eomset_dokter2.png")
+            st.write("Dengan Klik Pilihan Tahun pada sisi kanan atas, Diagram batang ini menunjukkan rangking dan Komparasi Omset Dokter pada masing-masing Tahunnya, mulai dari Dokter dengan Omset terbesar sampai dengan Dokter dengan Omset terkecil")
         with col11ax:
             st.subheader("Rangking Jumlah Pasien per Dokter")
             st.image("fpasien_dokter.png")
+            st.write("Diagram batang ini menunjukkan rangking Jumlah Pasien Dokter dalam seluruh periodenya, mulai dari Dokter dengan Jumlah Pasien terbanyak sampai dengan Dokter dengan Jumlah Pasien paling sedikit")
         with col12ax:
             st.subheader("Komparasi Rangking Jumlah Pasien Dokter per Periode")
             st.image("fpasien_dokter2.png")
+            st.write("Dengan Klik Pilihan Tahun pada sisi kanan atas, Diagram batang ini menunjukkan rangking dan Komparasi Jumlah Pasien Dokter pada masing-masing Tahunnya, mulai dari Dokter dengan Jumlah Pasien terbanyak sampai dengan Dokter dengan Jumlah Pasien paling sedikit")
     
     with st.expander("Trend Omset dan Jumlah Pasien Dokter"):
         col13x, col14x, col13ax, col14ax = st.columns(4)
