@@ -323,7 +323,9 @@ with tabs[2]:
         with col13xy:
             st.subheader("Rangking Omset BPJS Kesehatan per Poli")
             st.image("iomsetpoli_bpjs.png")
+            st.write("Terdapat Info Box yang menunjukkan berapa Total Omset dari Pasien BPJS Kesehatan setiap Tahunnya sd Periode Tahun Berjalan")
             st.write("Setelah Klik pada Pilihan Tahun, Diagram batang ini menunjukkan rangking Klinik/Poli/Unit manakah yg memberikan kontribusi Omset terbesar dari Pasien BPJS Kesehatan, mulai dari yang terbesar sd yang terkecil. Hal tsb dapat memberikan insight kpd manajemen terkait tindakan stretegis apa yg perlu dilakukan, a.l : dengan banyaknya/meningkatnya pasien BPJS Kesehatan di Unit Rawat Inap apakah tenaga medis yang ada sudah memadai ? agar terhindar dari penumpukan beban kerja yg berlebihan sehingga retensi pegawai dapat dijaga ")
+            st.write("Info Note menunjukkan kesimpulan Klinik/Poli/Unit manakah yang memberikan Omset dengan Jumlah dan persentase terbesar dari Pasien BPJS Kesehatan")
         with col14xy:
             st.subheader("Rangking Jumlah Pasien BPJS Kesehatan per Poli")
             st.image("ipasienpoli_bpjs.png")
