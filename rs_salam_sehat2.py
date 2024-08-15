@@ -304,9 +304,11 @@ with tabs[2]:
         with col11xy:
             st.subheader("Trend Omset BPJS Kesehatan Seluruh Periode")
             st.image("htrendomset_bpjs.png")
+            st.write("Grafik ini menunjukkan bagaimana fluktuasi Omset yang terjadi pada penjamin/penanggung pasien BPJS Kesehatan mulai dari awal periode sd periode tahun berjalan, sehingga bilamana ditemukan adanya trend/kondisi nilai omset yg semakin menurun/naik drastis maka menjadi bahan evaluasi manajemen terkait tindakan strategis yang perlu dilakukan")
         with col12xy:
             st.subheader("Komparasi Trend Omset BPJS Kesehatan per Periode")
             st.image("htrendomset_bpjs2.png")
+            st.write("Grafik ini menunjukkan bagaimana fluktuasi Omset dan komparasinya yang terjadi pada penjamin/penanggung pasien BPJS Kesehatan pada setiap periode di masing-masing tahunnya mulai dari awal periode sd periode tahun berjalan, sehingga bilamana ditemukan adanya nilai omset yg lebih kecil/kenaikan yang cukup drastis dari periode sebelumnya maka menjadi bahan evaluasi manajemen terkait tindakan strategis yang perlu dilakukan")
         with col11axy:
             st.subheader("Trend Jumlah Pasien BPJS Kesehatan Seluruh Periode")
             st.image("htrendpasien_bpjs.png")
