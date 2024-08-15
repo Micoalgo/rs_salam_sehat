@@ -415,9 +415,9 @@ with col200:
     st.markdown("[(Klik disini untuk Penjelasan Contoh Dashboard lainnya - Youtube video)](https://youtu.be/WHpYuC6DRhk?feature=shared)")
 
 st.markdown("--------")
-st.subheader(''':red[*Learn More :*]''')
+st.subheader(''':red[*Learn More...Scan Me :*]''')
 #st.subheader("[(:red[*Learn More...*])](https://wa.link/t4kb5y)")
-
+#st.image("learnmore.png")
 
 st.markdown("--------")
 st.write("*Created by Hospital Financial Analyst - HFA*")
