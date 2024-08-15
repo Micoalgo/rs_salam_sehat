@@ -352,6 +352,8 @@ with tabs[2]:
     with st.expander("Historical Peluang Kedatangan Pasien BPJS Kesehatan"):
         st.subheader("Historical Peluang Kedatangan Pasien BPJS Kesehatan per Poli/Unit")
         st.image("khistoricalpasien_bpjs.png")
+        st.write("Dengan Klik Pilihan Klinik/Poli/Unit, Diagram Heatmap ini menunjukkan historical persentase peluang kedatangan Pasien BPJS di Hari dan Jam tertentu. Hal tersebut dapat memberikan insight kepada Manajemen, Klinik/Poli/Unit manakah yang paling sering dikunjungi di hari dan jam tertentu sehingga dapat dievaluasi sebagai dasar pengambilan keputusan strategis oleh manajemen")
+        st.write("Info Note menjelaskan bahwa semakin gelap Diagram Heatmap maka semakin besar peluang kedatangan pasien BPJS Kesehatan di Hari dan Jam tertentu pada Klinik/Poli/Unit tsb")
 
 with tabs[3]:
     with st.expander("Statistik Sebaran Omset per Poli"):
