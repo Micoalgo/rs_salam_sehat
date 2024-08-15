@@ -423,5 +423,5 @@ st.markdown("--------")
 st.write("*Created by Hospital Financial Analyst - HFA*")
 st.write("*Mico Chandra*")
 #st.markdown("[(wa)](https://wa.link/wda0k7)")
-st.markdown("[(Klik Linkedin)](https://www.linkedin.com/in/mico-chandra-3a1708202/)")
+st.markdown("[(Linkedin)](https://www.linkedin.com/in/mico-chandra-3a1708202/)")
 
