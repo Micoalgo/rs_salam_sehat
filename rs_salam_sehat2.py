@@ -361,7 +361,7 @@ with tabs[3]:
         with col11xyz:
             st.subheader("Histogram Sebaran Omset per Poli")
             st.image("histo_poli.png")
-            st.write("Dengan Klik pada Pilihan Tahun dan Klinik/Poli/Unit, Histogram ini menunjukkan sebaran billing patient selama periode tahun tsb yaitu di range nilai berapa billing patient terbesar maupun terkecil dan berapa banyak jumlahnya yang dihasilkan dari Klinik/Poli/Unit tsb")
+            st.write("Dengan Klik pada Pilihan Tahun dan Klinik/Poli/Unit, Histogram ini menunjukkan sebaran billing patient selama setahun atau tahun berjalan yaitu di range nilai berapa billing patient terbesar maupun terkecil dan berapa banyak jumlahnya yang dihasilkan dari Klinik/Poli/Unit tsb")
             st.write("Histogram ini dapat dijuga dikomparasikan dengan tahun yang berbeda maupun dengan Klinik/Poli/Unit berbeda didalam rangka pengambilan insight oleh manajemen sebagai dasar evaluasi/elaborasi untuk pengambilan keputusan yang strategis")
         with col12xyz:
             st.subheader("Boxplot dan 5 Number Summary Sebaran Omset per Poli")
