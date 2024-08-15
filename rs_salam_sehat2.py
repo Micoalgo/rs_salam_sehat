@@ -417,7 +417,7 @@ with col200:
 st.markdown("--------")
 st.subheader(''':red[*Learn More...Scan Me :*]''')
 #st.subheader("[(:red[*Learn More...*])](https://wa.link/t4kb5y)")
-#st.image("learnmore.png")
+st.image("learnmore.png")
 
 st.markdown("--------")
 st.write("*Created by Hospital Financial Analyst - HFA*")
