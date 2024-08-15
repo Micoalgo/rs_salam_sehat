@@ -324,11 +324,15 @@ with tabs[2]:
             st.subheader("Rangking Omset BPJS Kesehatan per Poli")
             st.image("iomsetpoli_bpjs.png")
             st.write("Terdapat Info Box yang menunjukkan berapa Total Omset dari Pasien BPJS Kesehatan setiap Tahunnya sd Periode Tahun Berjalan")
-            st.write("Setelah Klik pada Pilihan Tahun, Diagram batang ini menunjukkan rangking Klinik/Poli/Unit manakah yg memberikan kontribusi Omset terbesar dari Pasien BPJS Kesehatan, mulai dari yang terbesar sd yang terkecil. Hal tsb dapat memberikan insight kpd manajemen terkait tindakan stretegis apa yg perlu dilakukan, a.l : dengan banyaknya/meningkatnya pasien BPJS Kesehatan di Unit Rawat Inap apakah tenaga medis yang ada sudah memadai ? agar terhindar dari penumpukan beban kerja yg berlebihan sehingga retensi pegawai dapat dijaga ")
+            st.write("Setelah Klik pada Pilihan Tahun, Diagram batang ini menunjukkan rangking Klinik/Poli/Unit manakah yg memberikan kontribusi Omset terbesar dari Pasien BPJS Kesehatan, mulai dari yang terbesar sd yang terkecil. Hal tsb dapat memberikan insight kpd manajemen terkait tindakan stretegis apa yg perlu dilakukan, a.l : dengan banyaknya/meningkatnya pasien BPJS Kesehatan di Unit Rawat Inap Apakah Tim Case Mix sudah maksimal dalam melakukan penagihan klaim BPJS Kesehatan ?")
             st.write("Info Note menunjukkan kesimpulan Klinik/Poli/Unit manakah yang memberikan Omset dari Pasien BPJS Kesehatan dengan Jumlah dan persentase terbesar")
         with col14xy:
             st.subheader("Rangking Jumlah Pasien BPJS Kesehatan per Poli")
             st.image("ipasienpoli_bpjs.png")
+            st.write("Terdapat Info Box yang menunjukkan berapa Total Jumlah Pasien BPJS Kesehatan setiap Tahunnya sd Periode Tahun Berjalan")
+            st.write("Setelah Klik pada Pilihan Tahun, Diagram batang ini menunjukkan rangking Klinik/Poli/Unit manakah dengan Jumlah Pasien BPJS Kesehatan Terbanyak, mulai dari Jumlah Pasien terbanyak sd yang paling sedikit. Hal tsb dapat memberikan insight kpd manajemen terkait tindakan stretegis apa yg perlu dilakukan, a.l : dengan banyaknya/meningkatnya pasien BPJS Kesehatan di Unit Rawat Inap apakah tenaga medis yang ada sudah memadai ? agar terhindar dari penumpukan beban kerja yg berlebihan sehingga retensi pegawai dapat dijaga ")
+            st.write("Info Note menunjukkan kesimpulan Klinik/Poli/Unit manakah dengan Jumlah Pasien BPJS Kesehatan terbanyak dan persentase terbesar")
+
 
         with col13axy:
             st.subheader("Rangking Omset BPJS Kesehatan per Dokter")
