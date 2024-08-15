@@ -416,7 +416,7 @@ with col200:
 
 st.markdown("--------")
 #st.subheader(''':red[*Learn More...*]''')
-st.subheader("[(''':red[*Learn More...*]''')](https://wa.link/510tzb)")
+st.subheader("[(:red[*Learn More...*])](https://wa.link/510tzb)")
 
 st.markdown("--------")
 st.write("*Created by Hospital Financial Analyst - HFA*")
