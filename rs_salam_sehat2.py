@@ -316,6 +316,7 @@ with tabs[2]:
         with col12axy:
             st.subheader("Komparasi Trend Jumlah Pasien BPJS Kesehatan per Periode")
             st.image("htrendpasien_bpjs2.png")
+            st.write("Grafik ini menunjukkan bagaimana fluktuasi Jumlah Pasien dan komparasinya yang terjadi pada penjamin/penanggung pasien BPJS Kesehatan pada setiap periode di masing-masing tahunnya mulai dari awal periode sd periode tahun berjalan, sehingga bilamana ditemukan adanya Jumlah Pasien yg lebih sedikit/kenaikan yang cukup drastis dari periode sebelumnya maka menjadi bahan evaluasi manajemen terkait tindakan strategis yang perlu dilakukan, a.l : Apakah sasaran tim marketing masih perlu digencarkan pada FKTP atau selainnya ?")
 
     with st.expander("Rangking Omset dan Rangking Jumlah Pasien Poli/Unit dan Dokter"):
         col13xy, col14xy, col13axy, col14axy = st.columns(4)
