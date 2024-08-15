@@ -337,9 +337,17 @@ with tabs[2]:
         with col13axy:
             st.subheader("Rangking Omset BPJS Kesehatan per Dokter")
             st.image("jomsetdr_bpjs.png")
+            st.write("Terdapat Info Box yang menunjukkan berapa Total Omset dari Pasien BPJS Kesehatan setiap Tahunnya sd Periode Tahun Berjalan")
+            st.write("Setelah Klik pada Pilihan Tahun, Diagram batang ini menunjukkan rangking Dokter manakah yg memberikan kontribusi Omset terbesar dari Pasien BPJS Kesehatan, mulai dari yang terbesar sd yang terkecil (TOP 20). Hal tsb dapat memberikan insight kpd manajemen terkait tindakan stretegis apa yg perlu dilakukan")
+            st.write("Info Note menunjukkan kesimpulan Dokter manakah yang memberikan Omset dari Pasien BPJS Kesehatan dengan Jumlah dan persentase terbesar")
+
         with col14axy:
             st.subheader("Rangking Jumlah Pasien BPJS Kesehatan per Dokter")
             st.image("jpasiendr_bpjs.png")
+            st.write("Terdapat Info Box yang menunjukkan berapa Total Jumlah Pasien BPJS Kesehatan setiap Tahunnya sd Periode Tahun Berjalan")
+            st.write("Setelah Klik pada Pilihan Tahun, Diagram batang ini menunjukkan rangking Dokter manakah dengan Jumlah Pasien BPJS Kesehatan Terbanyak, mulai dari Jumlah Pasien terbanyak sd yang paling sedikit (TOP 20). Hal tsb dapat memberikan insight kpd manajemen terkait tindakan stretegis apa yg perlu dilakukan")
+            st.write("Info Note menunjukkan kesimpulan Dokter manakah dengan Jumlah Pasien BPJS Kesehatan terbanyak dan persentase terbesar")
+
 
     with st.expander("Historical Peluang Kedatangan Pasien BPJS Kesehatan"):
         st.subheader("Historical Peluang Kedatangan Pasien BPJS Kesehatan per Poli/Unit")
