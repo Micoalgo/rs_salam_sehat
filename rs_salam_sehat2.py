@@ -388,6 +388,8 @@ with tabs[4]:
         with col13xyb:
             st.subheader("Trend Omset Rajal (OP) dan Ranap (IP)")
             st.image("ltrendopip.png")
+            st.write("Grafik ini menunjukkan bagaimana fluktuasi Omset yang terjadi pada 2 kelompok besar pendapatan yaitu Rawat Jalan/Rajal/OP dan Rawat Inap/Ranap/IP mulai dari awal periode sd periode tahun berjalan, sehingga bilamana ditarget kan bahwa selisih Omset Ranap dan Rajal adalah kurang dari 1% maka gap besar yang terjadi diantara kedua grafik tsb, maupun fluktuasi ekstrim yang terjadi pada keduanya  menjadi bahan evaluasi/elaborasi manajemen terkait tindakan strategis yang perlu dilakukan")
+            st.write("Infobox menunjukkan masing-masing total Persentase dan Nilai Omset  Rajal/OP dan IP mulai dari awal periode sd periode tahun berjalan, dan dapat dilihat juga berapa gap persentase yang terjadi antara Omset Rajal dan Ranap tsb")
         with col14xyb:
             st.subheader("Komparasi Omset Rajal (OP) dan Ranap (IP)")
             st.image("ltrendopip2.png")
