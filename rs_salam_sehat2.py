@@ -374,6 +374,8 @@ with tabs[3]:
         with col11xyza:
             st.subheader("Histogram Sebaran Omset per Dokter")
             st.image("histo_dr.png")
+            st.write("Dengan Klik pada Pilihan Tahun dan Dokter, Histogram ini menunjukkan sebaran billing patient selama setahun atau tahun berjalan yaitu di range nilai tagihan (omset) berapa billing patient terbesar maupun terkecil dan berapa banyak billing patient yang dihasilkan dari Dokter tsb")
+            st.write("Histogram ini dapat dijuga dikomparasikan dengan tahun yang berbeda maupun dengan Dokter berbeda didalam rangka pengambilan insight oleh manajemen sebagai dasar evaluasi/elaborasi untuk pengambilan keputusan yang strategis")
         with col12xyza:
             st.subheader("Boxplot dan 5 Number Summary Sebaran Omset per Dokter")
             st.image("histo_bp_dr.png")
