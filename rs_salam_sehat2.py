@@ -379,6 +379,8 @@ with tabs[3]:
         with col12xyza:
             st.subheader("Boxplot dan 5 Number Summary Sebaran Omset per Dokter")
             st.image("histo_bp_dr.png")
+            st.write("Dengan Klik pada Pilihan Tahun dan Dokter, Boxplot ini menunjukkan sebaran billing patient selama setahun atau tahun berjalan yaitu informasi terkait 5 Number Summary (omset), sehingga dapat diketahui a.l : di range mana saja sebaran Data Omset terbanyak yang terjadi (Q1 sd Q3), Nilai Rata-rata dan Nilai Minimal dan Maksimal Billing Patient yang diterbitkan oleh Dokter tsb. Hal ini dapat memberikan gambaran kepada Manajemen diantaranya berapa loss sales yang terjadi jika terjadi penurunan jumlah pasien (billing patient) sehingga dengan insight yang didapatkan dari visualisasi data tsb dapat dipertimbangkan tindakan strategis yang perlu dilakukan")
+            st.write("Boxplot ini dapat dijuga dikomparasikan dengan tahun yang berbeda maupun dengan Dokter berbeda didalam rangka pengambilan insight oleh manajemen sebagai dasar evaluasi/elaborasi untuk pengambilan keputusan yang strategis")
 
 with tabs[4]:
     with st.expander("Trend dan Jumlah Omset Rajal (OP) dan Omset Ranap (IP) Seluruh Periode"):
