@@ -393,6 +393,7 @@ with tabs[4]:
         with col14xyb:
             st.subheader("Komparasi Omset Rajal (OP) dan Ranap (IP)")
             st.image("ltrendopip2.png")
+            st.write("Dengan Klik pada Pilihan Tahun, Grafik ini menunjukkan bagaimana fluktuasi Omset Rajal (OP) dan Ranap (IP) serta komparasinya pada setiap periode di masing-masing tahunnya yang terjadi mulai dari awal periode sd periode tahun berjalan, sehingga bilamana ditarget kan bahwa selisih Omset Ranap dan Rajal adalah kurang dari 1% maka gap besar yang terjadi diantara kedua grafik tsb, maupun fluktuasi ekstrim yang terjadi pada keduanya menjadi bahan evaluasi/elaborasi manajemen terkait tindakan strategis yang perlu dilakukan")
 
         with col13axyb:
             st.subheader("Resume Omset Rajal (OP) dan Ranap (IP)")
