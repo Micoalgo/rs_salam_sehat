@@ -398,7 +398,7 @@ with tabs[4]:
         with col13axyb:
             st.subheader("Resume Omset Rajal (OP) dan Ranap (IP)")
             st.image("ltrendopip3.png")
-            st.write("Infobox ini menunjukkan Total Omset per Tahun dan Rata-rata Omset perbulannya baik untuk Rajal (OP) maupun Ranap (IP) serta persentase keduanya terhadap Total Omset secara keseluruhan mulai dari awal periode sd periode tahun berjalan")
+            st.write("Infobox ini menunjukkan Total Omset per Tahun dan Rata-rata Omset perbulannya mulai dari awal periode sd periode tahun berjalan baik untuk Rajal (OP) maupun Ranap (IP) serta persentase keduanya terhadap Total Omset secara keseluruhan pada masing-masing tahunnya")
         with col14axyb:
             st.subheader("Jumlah Omset Rajal (OP) dan Ranap (IP) di Atas Rata2 nya dari Seluruh Periode")
             st.image("ltrendopip4.png")
