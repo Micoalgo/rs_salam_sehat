@@ -413,17 +413,20 @@ with tabs[4]:
             st.subheader("Trend Jumlah Pasien Rajal (OP) dan Ranap (IP)")
             st.image("mtrenpasopip.png")
             st.write("Grafik ini menunjukkan bagaimana fluktuasi Jumlah Pasien yang terjadi pada 2 kelompok besar Jenis Pasien yaitu Rawat Jalan/Rajal/OP dan Rawat Inap/Ranap/IP mulai dari awal periode sd periode tahun berjalan, sehingga bilamana terjadi fluktuasi ekstrim yang terjadi pada keduanya maka menjadi bahan evaluasi/elaborasi manajemen terkait tindakan strategis yang perlu dilakukan")
-            st.write("Infobox menunjukkan masing-masing total Persentase dan Jumlah Pasien Rajal/OP dan IP mulai dari awal periode sd periode tahun berjalan, dan dapat dilihat juga berapa persentase yang Jumlah Pasien Rajal dan Ranap tsb terhadap seluruh periodenya")
+            st.write("Infobox menunjukkan masing-masing total Persentase dan Jumlah Pasien Rajal/OP dan IP mulai dari awal periode sd periode tahun berjalan, dan dapat dilihat juga berapa persentase Jumlah Pasien Rajal dan Ranap tsb terhadap seluruh periodenya")
         with col14xybz:
             st.subheader("Komparasi Jumlah Pasien Rajal (OP) dan Ranap (IP)")
             st.image("mtrenpasopip2.png")
+            st.write("Dengan Klik pada Pilihan Tahun, Grafik ini menunjukkan bagaimana fluktuasi Jumlah Pasien Rajal (OP) dan Ranap (IP) serta komparasinya pada setiap periode di masing-masing tahunnya yang terjadi mulai dari awal periode sd periode tahun berjalan, sehingga bilamana terjadi fluktuasi ekstrim yang terjadi pada keduanya maka menjadi bahan evaluasi/elaborasi manajemen terkait tindakan strategis yang perlu dilakukan")
 
         with col13axybz:
             st.subheader("Resume Jumlah Pasien Rajal (OP) dan Ranap (IP)")
             st.image("mtrenpasopip3.png")
+            st.write("Infobox ini menunjukkan Resume Total Jumlah Pasien per Tahun dan Rata-rata Jumlah Pasien perbulannya mulai dari awal periode sd periode tahun berjalan baik untuk Rajal (OP) maupun Ranap (IP) serta persentase keduanya terhadap Total Jumlah Pasien secara keseluruhan pada masing-masing tahunnya")
         with col14axybz:
             st.subheader("Jumlah Pasien Rajal (OP) dan Ranap (IP) di Atas Rata2 nya dari Seluruh Periode")
             st.image("mtrenpasopip4.png")
+            st.write("Dengan Klik pada Pilihan Rajal (OP) atau Ranap (IP), Diagram batang ini menunjukkan periode/bulan dan tahun mana saja yang menghasilkan Jumlah Pasien diatas rata-rata seluruh periode, sehingga dapat diketahui dan dievaluasi/dielaborasi periode/bulan dan tahun mana saja yang diatas/dibawah rata-rata ataupun periode mana yang menghasilkan Jumlah Pasien terbanyak terhadap seluruh periodenya")
             
 st.markdown("--------")
 col100, col200 = st.columns(2)
