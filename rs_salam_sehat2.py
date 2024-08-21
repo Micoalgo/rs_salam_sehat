@@ -412,6 +412,8 @@ with tabs[4]:
         with col13xybz:
             st.subheader("Trend Jumlah Pasien Rajal (OP) dan Ranap (IP)")
             st.image("mtrenpasopip.png")
+            st.write("Grafik ini menunjukkan bagaimana fluktuasi Jumlah Pasien yang terjadi pada 2 kelompok besar Jenis Pasien yaitu Rawat Jalan/Rajal/OP dan Rawat Inap/Ranap/IP mulai dari awal periode sd periode tahun berjalan, sehingga bilamana terjadi fluktuasi ekstrim yang terjadi pada keduanya maka menjadi bahan evaluasi/elaborasi manajemen terkait tindakan strategis yang perlu dilakukan")
+            st.write("Infobox menunjukkan masing-masing total Persentase dan Jumlah Pasien Rajal/OP dan IP mulai dari awal periode sd periode tahun berjalan, dan dapat dilihat juga berapa persentase yang Jumlah Pasien Rajal dan Ranap tsb terhadap seluruh periodenya")
         with col14xybz:
             st.subheader("Komparasi Jumlah Pasien Rajal (OP) dan Ranap (IP)")
             st.image("mtrenpasopip2.png")
