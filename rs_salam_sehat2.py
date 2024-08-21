@@ -22,6 +22,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("<h1 style='text-align: center;'>Preview Dashboard Analisis Omset dan Sebaran Pasien RS Salam Sehat</h1>", unsafe_allow_html=True)
+st.subheader(''':red[*(Driving Hospital Revenue Growth Through Analytics)*]''')
 st.image("rs33b.png")
 
 st.markdown("--------")
