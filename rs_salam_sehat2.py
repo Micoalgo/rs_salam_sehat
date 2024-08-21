@@ -402,6 +402,8 @@ with tabs[4]:
         with col14axyb:
             st.subheader("Jumlah Omset Rajal (OP) dan Ranap (IP) di Atas Rata2 nya dari Seluruh Periode")
             st.image("ltrendopip4.png")
+            st.write("Dengan Klik pada Pilihan Rajal (OP) atau Ranap (IP), Diagram batang ini menunjukkan periode/bulan dan tahun mana saja yang menghasilkan nilai Omset diatas rata-rata seluruh periode, sehingga dapat diketahui dan dievaluasi/dielaborasi periode/bulan dan tahun mana saja yang diatas/dibawah rata-rata ataupun periode mana yang menghasilkan omset terbesar terhadap seluruh periodenya")
+            st.write("Slider pada Diagram ini defaultnya menunjukkan pada nilai rata-ratanya, namun bisa juga digeser ke arah nilai tertentu yg diinginkan utk melihat periode/bulan dan tahun omset mana yang ingin dievaluasi/dielaborasi")
 
     with st.expander("Trend dan Jumlah Pasien Rajal (OP) dan Omset Ranap (IP) Seluruh Periode"):
         col13xybz, col14xybz, col13axybz, col14axybz = st.columns(4)
