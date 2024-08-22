@@ -427,6 +427,7 @@ with tabs[4]:
             st.subheader("Jumlah Pasien Rajal (OP) dan Ranap (IP) di Atas Rata2 nya dari Seluruh Periode")
             st.image("mtrenpasopip4.png")
             st.write("Dengan Klik pada Pilihan Rajal (OP) atau Ranap (IP), Diagram batang ini menunjukkan periode/bulan dan tahun mana saja yang menghasilkan Jumlah Pasien diatas rata-rata seluruh periode, sehingga dapat diketahui dan dievaluasi/dielaborasi periode/bulan dan tahun mana saja yang diatas/dibawah rata-rata ataupun periode mana yang menghasilkan Jumlah Pasien terbanyak terhadap seluruh periodenya")
+            st.write("Slider pada Diagram ini defaultnya menunjukkan pada nilai rata-ratanya, namun bisa juga digeser ke arah nilai tertentu yg diinginkan utk melihat Jumlah Pasien pada periode/bulan dan tahun mana yang ingin dievaluasi/dielaborasi")
             
 st.markdown("--------")
 col100, col200 = st.columns(2)
