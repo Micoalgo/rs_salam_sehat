@@ -442,12 +442,13 @@ st.markdown("--------")
 #st.image("learnmore.png")
 
 #st.markdown("--------")
-st.markdown("--------")
+#st.markdown("--------")
 st.write("*Created by Healthcare Financial Analyst - HFA*")
 st.write("*CP Marketing - Ludfi : WA 081273002263*")
 #st.markdown("[(wa)](https://wa.link/wda0k7)")
 #st.markdown("[(Linkedin)](https://www.linkedin.com/in/mico-chandra-s-e-certda-acca-3a1708202)")
-#st.markdown("--------")
+st.markdown("--------")
+
 
 
 
