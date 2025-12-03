@@ -436,7 +436,7 @@ with tabs[4]:
 #with col200:
     #st.markdown("[(Klik disini untuk Penjelasan Contoh Dashboard lainnya - Youtube video)](https://youtu.be/WHpYuC6DRhk?feature=shared)")
 
-#st.markdown("--------")
+st.markdown("--------")
 #st.subheader(''':red[*Learn More :*]''')
 
 #st.image("learnmore.png")
@@ -447,7 +447,8 @@ st.write("*Created by Healthcare Financial Analyst - HFA*")
 st.write("*CP Marketing - Ludfi : WA 081273002263*")
 #st.markdown("[(wa)](https://wa.link/wda0k7)")
 #st.markdown("[(Linkedin)](https://www.linkedin.com/in/mico-chandra-s-e-certda-acca-3a1708202)")
-st.markdown("--------")
+#st.markdown("--------")
+
 
 
 
