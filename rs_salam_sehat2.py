@@ -429,25 +429,11 @@ with tabs[4]:
             st.write("Dengan Klik pada Pilihan Rajal (OP) atau Ranap (IP), Diagram batang ini menunjukkan periode/bulan dan tahun mana saja yang menghasilkan Jumlah Pasien diatas rata-rata seluruh periode, sehingga dapat diketahui dan dievaluasi/dielaborasi periode/bulan dan tahun mana saja yang diatas/dibawah rata-rata ataupun periode mana yang menghasilkan Jumlah Pasien terbanyak terhadap seluruh periodenya")
             st.write("Slider pada Diagram ini defaultnya menunjukkan pada nilai rata-ratanya, namun bisa juga digeser ke arah nilai tertentu yg diinginkan utk melihat Jumlah Pasien pada periode/bulan dan tahun mana yang ingin dievaluasi/dielaborasi")
             
-#st.markdown("--------")
-#col100, col200 = st.columns(2)
-#with col100:
-    #st.markdown("[(Klik disini untuk Contoh Dashboard lainnya - Analisis dan Prediksi Machine Learning)](https://abdr.shinyapps.io/rs_salam_sehat/)")
-#with col200:
-    #st.markdown("[(Klik disini untuk Penjelasan Contoh Dashboard lainnya - Youtube video)](https://youtu.be/WHpYuC6DRhk?feature=shared)")
-
 st.markdown("--------")
-#st.subheader(''':red[*Learn More :*]''')
-
-#st.image("learnmore.png")
-
-#st.markdown("--------")
-#st.markdown("--------")
 st.write("*Created by Healthcare Financial Analyst - HFA*")
 st.write("*CP Marketing - Ludfi : WA 081273002263*")
-#st.markdown("[(wa)](https://wa.link/wda0k7)")
-#st.markdown("[(Linkedin)](https://www.linkedin.com/in/mico-chandra-s-e-certda-acca-3a1708202)")
 st.markdown("--------")
+
 
 
 
