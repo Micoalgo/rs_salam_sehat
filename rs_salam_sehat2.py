@@ -431,8 +431,9 @@ with tabs[4]:
             
 st.markdown("--------")
 st.write("*Created by Healthcare Financial Analyst - HFA*")
-st.write("*CP Marketing - Ludfi : WA 081273002263*")
+#st.write("*CP Marketing - Ludfi : WA 081273002263*")
 st.markdown("--------")
+
 
 
 
